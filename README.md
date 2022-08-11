@@ -1,2 +1,2 @@
 # Portfolio
-Portfólio criado durante o curso Trybe
+Portfólio de Lucas Souza
