@@ -6,22 +6,26 @@ Dark Slate blue = #40376E
 Dark purple = #48233C
  */
 body{
-    background-color: #D4E4BC;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    background-color: #96ACB7;
+    font-family: 'Arvo', serif;
+
 }
 #photo{
     border:5px solid #48233C;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 40%;
+    border-radius: 100%;
 }
 h1{
-    color: #96ACB7;
+    
     text-align: center;
-    background-color: #40376E;
     display: table;
     margin: 0px auto 0px auto;
     
+}
+.purple-title{
+    background-color: #40376E;
+    color: #96ACB7;
 }
 
