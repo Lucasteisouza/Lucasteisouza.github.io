@@ -1,19 +1,27 @@
+/* Códigos da cores
+Tea green= #D4E4BC
+Pewter blue = #96ACB7
+Y in Mn blue = #36558F
+Dark Slate blue = #40376E
+Dark purple = #48233C
+ */
 body{
     background-color: #D4E4BC;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-#foto{
+#photo{
     border:5px solid #48233C;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-.corpo{
-    background-color:  #36558F;
-    color: #96ACB7;
-
+    border-radius: 40%;
 }
 h1{
+    color: #96ACB7;
     text-align: center;
+    background-color: #40376E;
+    display: table;
+    margin: 0px auto 0px auto;
+    
 }
 
