@@ -21,9 +21,10 @@ body{
 }
 .main-text{
     display: inline-block;
-    text-align: left;
-    margin-left: 20px;
+    text-align: justify;
+    margin-left: 10px;
     vertical-align: bottom;
+    max-width: 80%;
 }
 #lucas{
     background-color: #40376E;
@@ -37,13 +38,14 @@ body{
     padding:0 1%
 }
 #contact{
-    text-align: center;
-    margin: auto;
+    align-items: center;
+    margin-left: 20%;
     display: inline-block;
 }
 #main-components{
     display: inline-block;
-    max-width: 70%;
+    max-width: 75%;
+    text-align: left;
 }
 h1{
     
@@ -54,5 +56,9 @@ h1{
 }
 .purple-title{
     text-decoration: underline #40376E;
+}
+.logo{
+    display: inline-block;
+    margin: 0 50px;
 }
 
