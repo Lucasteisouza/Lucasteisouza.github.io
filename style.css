@@ -14,14 +14,16 @@ body{
     max-width: 90%;
     margin: auto;
     text-align: center;
+
 }
 #photo{
     display: inline-block;
 }
 .main-text{
     display: inline-block;
-    max-width: 50%;
-    vertical-align: top;
+    text-align: left;
+    margin-left: 20px;
+    vertical-align: bottom;
 }
 #lucas{
     background-color: #40376E;
@@ -30,13 +32,18 @@ body{
 }
 #bottom{
     background-color: #36558F;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding:0 1%
 }
 #contact{
+    text-align: center;
+    margin: auto;
     display: inline-block;
-    margin: 5% 20%;
+}
+#main-components{
+    display: inline-block;
+    max-width: 70%;
 }
 h1{
     
@@ -46,7 +53,6 @@ h1{
     
 }
 .purple-title{
-    background-color: #40376E;
-    color: #96ACB7;
+    text-decoration: underline #40376E;
 }
 
