@@ -1,11 +1,22 @@
 import './App.css'
+import Header from './components/Header'
+import Sobre from './components/Sobre'
+import Stacks from './components/Stacks'
+import NavBar from './components/NavBar'
+import Footer from './components/Footer'
+import Projects from './components/Projects'
 
 function App() {
 
   return (
-    <div className='app'>
-      <h1>Foi!</h1>
-    </div>
+    <>
+      <Header />
+      <NavBar />
+      <Sobre />
+      <Stacks />
+      <Projects />
+      <Footer />
+    </>
   )
 }
 
